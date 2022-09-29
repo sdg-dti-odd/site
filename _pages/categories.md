@@ -1,7 +1,7 @@
 ---
 layout: categories
-language: en
-permalink: /categories/
+permalink: /fr/categories/
+language: fr
 title: Categories
 ---
 ## Posts by Category

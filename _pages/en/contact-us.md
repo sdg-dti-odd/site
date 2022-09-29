@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact us
-permalink: /fr/contact-us/
-language: fr
+language: en
+permalink: /contact-us/
 ---
 ### We are interested in your feedback regarding this website and its contents.
 
