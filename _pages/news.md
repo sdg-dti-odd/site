@@ -1,7 +1,7 @@
 ---
 layout: news
 title: News & Events
-permalink: /fr/news/
+permalink: /news/
 language: fr
 ---
 

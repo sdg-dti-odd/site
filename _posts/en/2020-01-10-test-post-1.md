@@ -4,7 +4,7 @@ title: Test Post 1
 author: SDG Team
 excerpt: "Maecenas vulputate eget magna nec vestibulum. Cras tincidunt, purus vel egestas dapibus, ex tellus gravida lectus, condimentum placerat orci arcu aliquet sem. Nulla commodo sodales arcu. Vestibulum maximus lacinia volutpat. Nulla eu ipsum erat. Nam eu augue sapien. Integer odio ante, elementum ac mauris eget, luctus sodales ipsum."
 language: en
-permalink: /test-post-1/
+permalink: /en/test-post-1/
 categories:
   - International
 ---
