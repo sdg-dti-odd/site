@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/en',
+  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/fr',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'fr',
 };
 
 </script>
@@ -99,7 +99,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 10 - Reduced inequalities - Indicators For The Sustainable Development Goals</title>
+    <title>Objectif 10 - Inégalités réduites - Indicateurs pour les objectifs de développement durable</title>
 
 
 
@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220924165105">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220929023524">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -143,17 +143,17 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-fr
 layout-goal
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"contraste standard","disable_high_contrast":"Désactiver le contraste élevé","disclaimer":"Ceci est un site web en développement. Nous apprécions vos <a href=\"mailto:%email_contacts.suggestions\">commentaires</a>.","enable_high_contrast":"Activer le contraste élevé","high_contrast":"contraste élevé","internet_explorer_message":"Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.","internet_explorer_message_title":"Ce navigateur Internet n'est plus pris en charge","skip_link":"Passer au contenu principal","tag_line":"17 objectifs pour transformer notre monde","toggle_menu":"Interrupteur du menu. Cliquez pour développer ou réduire le menu.","toggle_search":"Interrupteur de la barre. Cliquez pour développer ou réduire la barre de recherche."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Passer au contenu principal</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Ce navigateur Internet n'est plus pris en charge</h2>
+    <p class="internet-explorer-message-body">Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.</p>
 </div>
 <div id="disclaimer">
     
@@ -161,7 +161,7 @@ layout-goal
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Ceci est un site web en développement. Nous apprécions vos <a href="mailto:test@example.com">commentaires</a>.
     
   </div>
 </div>
@@ -172,7 +172,7 @@ layout-goal
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/SDG_logo.png" alt="Objectifs de développement durable - 17 objectifs pour transformer notre monde" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -180,25 +180,25 @@ layout-goal
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
+    <a class="nav-link" href="/site/goals">Objectifs</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site/reporting-status">Statut de rapport</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
+    <a class="nav-link" href="/site/about">À propos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
+    <a class="nav-link" href="/site/news">Mises à jour</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Chercher</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Chercher">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Chercher" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -217,11 +217,11 @@ layout-goal
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Français
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/es/10/">
-              Español
+            <a class="dropdown-item" href="/site/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -231,12 +231,12 @@ layout-goal
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site/es/10/">
-                Español
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site/en/10/">
+                English
             </a>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="Activer le contraste élevé" aria-label="Activer le contraste élevé"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -256,10 +256,10 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item" >
-            <a href="/site/">Home</a>
+            <a href="/site/">Accueil</a>
         </li>
         <li class="breadcrumb-item" >
-            <a href="/site/goals">Goals</a>
+            <a href="/site/goals">Objectifs</a>
         </li>
         
         
@@ -272,10 +272,10 @@ data-event-label="high"
     <div class="container">
         <div class="row">
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/fr/10.png" alt="Inégalités réduites - Objectif 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
             </div>
             <div class="col-8 col-md-9 col-lg-10 goal-details">
-                <h1>Reduce inequality within and among countries</h1>
+                <h1>Réduire les inégalités dans les pays et d’un pays à l’autre</h1>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@ data-event-label="high"
 
 
   <div class="container g-0">
-    <h2 class="goal-page-heading">Targets and indicators</h2>
+    <h2 class="goal-page-heading">Cibles et indicateurs</h2>
 
     
     
@@ -297,11 +297,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.1</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.1</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</span>
+            <span class="target-name">D’ici à 2030, assurer progressivement et durablement une croissance des revenus des 40 pour cent de la population les plus pauvres à un rythme plus rapide que le revenu moyen national</span>
           </div>
       </div>
         
@@ -315,25 +315,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.1.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.1.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-1-1">Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</a></span>
+              <span class="indicator-name"><a href="/site/10-1-1">Taux de croissance des dépenses des ménages ou du revenu par habitant pour les 40 pour cent de la population les plus pauvres et pour l’ensemble de la population</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -351,11 +351,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.2</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.2</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</span>
+            <span class="target-name">D’ici à 2030, autonomiser toutes les personnes et favoriser leur intégration sociale, économique et politique, indépendamment de leur âge, de leur sexe, de leur handicap, de leur race, de leur appartenance ethnique, de leurs origines, de leur religion ou de leur statut économique ou autre</span>
           </div>
       </div>
         
@@ -369,25 +369,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.2.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.2.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-2-1">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</a></span>
+              <span class="indicator-name"><a href="/site/10-2-1">Proportion de personnes vivant avec moins de la moitié du revenu médian, par sexe, âge et situation au regard du handicap</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -405,11 +405,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.3</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.3</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard</span>
+            <span class="target-name">Assurer l’égalité des chances et réduire l’inégalité des résultats, notamment en éliminant les lois, politiques et pratiques discriminatoires et en encourageant l’adoption de lois, politiques et mesures adéquates en la matière</span>
           </div>
       </div>
         
@@ -423,25 +423,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.3.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.3.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-3-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
+              <span class="indicator-name"><a href="/site/10-3-1">Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -459,11 +459,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.4</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.4</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</span>
+            <span class="target-name">Adopter des politiques, notamment sur les plans budgétaire, salarial et dans le domaine de la protection sociale, afin de parvenir progressivement à une plus grande égalité</span>
           </div>
       </div>
         
@@ -477,25 +477,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.4.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.4.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-4-1">Labour share of GDP</a></span>
+              <span class="indicator-name"><a href="/site/10-4-1">Part du travail dans le PIB</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -517,25 +517,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.4.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.4.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-4-2">Redistributive impact of fiscal policy</a></span>
+              <span class="indicator-name"><a href="/site/10-4-2">Effet redistributif de la politique budgétaire</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -553,11 +553,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.5</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.5</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</span>
+            <span class="target-name">Améliorer la réglementation et la surveillance des institutions et marchés financiers mondiaux et renforcer l’application des règles</span>
           </div>
       </div>
         
@@ -571,25 +571,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.5.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.5.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-5-1">Financial Soundness Indicators</a></span>
+              <span class="indicator-name"><a href="/site/10-5-1">Indicateurs de solidité financière</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -607,11 +607,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.6</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.6</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</span>
+            <span class="target-name">Faire en sorte que les pays en développement soient davantage représentés et entendus lors de la prise de décisions dans les institutions économiques et financières internationales, afin que celles-ci soient plus efficaces, crédibles, transparentes et légitimes</span>
           </div>
       </div>
         
@@ -625,25 +625,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.6.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.6.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-6-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
+              <span class="indicator-name"><a href="/site/10-6-1">Proportion de pays en développement qui sont membres d’organisations internationales et y disposent du droit de vote</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -661,11 +661,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.7</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.7</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</span>
+            <span class="target-name">Faciliter la migration et la mobilité de façon ordonnée, sûre, régulière et responsable, notamment par la mise en œuvre de politiques migratoires planifiées et bien gérées</span>
           </div>
       </div>
         
@@ -679,25 +679,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.7.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.7.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-7-1">Recruitment cost borne by employee as a proportion of monthly income earned in country of destination</a></span>
+              <span class="indicator-name"><a href="/site/10-7-1">Dépenses de recrutement à la charge du salarié en proportion de son revenu mensuel dans le pays de destination</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -719,25 +719,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.7.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.7.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-7-2">Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people</a></span>
+              <span class="indicator-name"><a href="/site/10-7-2">Nombre de pays dotés de politiques migratoires qui facilitent la migration et la mobilité de façon ordonnée, sûre, régulière et responsible</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -759,25 +759,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.7.3</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.7.3</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-7-3">Number of people who died or disappeared in the process of migration towards an international destination</a></span>
+              <span class="indicator-name"><a href="/site/10-7-3">Nombre de personnes décédées ou disparues lors de la migration vers une destination internationale</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -799,25 +799,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.7.4</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.7.4</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-7-4">Proportion of the population who are refugees, by country of origin</a></span>
+              <span class="indicator-name"><a href="/site/10-7-4">Proportion de réfugiés dans la population, par pays d’origine</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -835,11 +835,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.a</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.a</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements</span>
+            <span class="target-name">Mettre en œuvre le principe d’un traitement spécial et différencié pour les pays en développement, en particulier les pays les moins avancés, conformément aux accords de l’Organisation mondiale du commerce</span>
           </div>
       </div>
         
@@ -853,25 +853,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.a.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.a.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-a-1">Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff</a></span>
+              <span class="indicator-name"><a href="/site/10-a-1">Proportion de lignes tarifaires concernées par les importations en provenance des pays les moins avancés et des pays en développement bénéficiant d’une franchise de droits</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -889,11 +889,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.b</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.b</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</span>
+            <span class="target-name">Stimuler l’aide publique au développement et les flux financiers, y compris les investissements étrangers directs, en faveur des États qui en ont le plus besoin, en particulier les pays les moins avancés, les pays d’Afrique, les petits États insulaires en développement et les pays en développement sans littoral, conformément à leurs plans et programmes nationaux</span>
           </div>
       </div>
         
@@ -907,25 +907,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.b.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.b.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-b-1">Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</a></span>
+              <span class="indicator-name"><a href="/site/10-b-1">Montant total des ressources allouées au développement, par pays bénéficiaire et donateur et type d’apport (aide publique au développement, investissement étranger direct et autres)</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -943,11 +943,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 10.c</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 10.c</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent</span>
+            <span class="target-name">D’ici à 2030, faire baisser au-dessous de 3 pour cent les coûts de transaction des envois de fonds effectués par les migrants et éliminer les circuits d’envois de fonds dont les coûts sont supérieurs à 5 pour cent</span>
           </div>
       </div>
         
@@ -961,25 +961,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 10.c.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 10.c.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/10-c-1">Remittance costs as a proportion of the amount remitted</a></span>
+              <span class="indicator-name"><a href="/site/10-c-1">Coûts des envois de fonds en proportion du montant transféré</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -994,7 +994,7 @@ data-event-label="high"
         <hr class="goal-page-target-rule" />
     
   </div>
-  <a href="#top">Back to top</a>
+  <a href="#top">Retour en haut</a>
 </div>
 
 
@@ -1005,11 +1005,11 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Créé en utilisant Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/site/contact-us">Contact us</a>
+                            <a href="/site/contact-us">Contactez-nous</a>
                             
                         </li>
                         <li>
@@ -1061,17 +1061,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'masquer';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Chercher';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220924165105'></script>
+<script src='/site/assets/js/sdg.js?v=20220929023524'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220924165105"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220929023524"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

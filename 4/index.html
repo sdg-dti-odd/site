@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/en',
+  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/fr',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'fr',
 };
 
 </script>
@@ -99,7 +99,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 4 - Quality education - Indicators For The Sustainable Development Goals</title>
+    <title>Objectif 4 - Éducation de qualité - Indicateurs pour les objectifs de développement durable</title>
 
 
 
@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220924165105">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220929023524">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -143,17 +143,17 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-fr
 layout-goal
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"contraste standard","disable_high_contrast":"Désactiver le contraste élevé","disclaimer":"Ceci est un site web en développement. Nous apprécions vos <a href=\"mailto:%email_contacts.suggestions\">commentaires</a>.","enable_high_contrast":"Activer le contraste élevé","high_contrast":"contraste élevé","internet_explorer_message":"Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.","internet_explorer_message_title":"Ce navigateur Internet n'est plus pris en charge","skip_link":"Passer au contenu principal","tag_line":"17 objectifs pour transformer notre monde","toggle_menu":"Interrupteur du menu. Cliquez pour développer ou réduire le menu.","toggle_search":"Interrupteur de la barre. Cliquez pour développer ou réduire la barre de recherche."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Passer au contenu principal</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Ce navigateur Internet n'est plus pris en charge</h2>
+    <p class="internet-explorer-message-body">Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.</p>
 </div>
 <div id="disclaimer">
     
@@ -161,7 +161,7 @@ layout-goal
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Ceci est un site web en développement. Nous apprécions vos <a href="mailto:test@example.com">commentaires</a>.
     
   </div>
 </div>
@@ -172,7 +172,7 @@ layout-goal
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/SDG_logo.png" alt="Objectifs de développement durable - 17 objectifs pour transformer notre monde" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -180,25 +180,25 @@ layout-goal
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
+    <a class="nav-link" href="/site/goals">Objectifs</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site/reporting-status">Statut de rapport</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
+    <a class="nav-link" href="/site/about">À propos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
+    <a class="nav-link" href="/site/news">Mises à jour</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Chercher</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Chercher">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Chercher" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -217,11 +217,11 @@ layout-goal
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Français
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/es/4/">
-              Español
+            <a class="dropdown-item" href="/site/en/4/">
+              English
             </a>
           </li></ul>
   </div>
@@ -231,12 +231,12 @@ layout-goal
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site/es/4/">
-                Español
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site/en/4/">
+                English
             </a>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="Activer le contraste élevé" aria-label="Activer le contraste élevé"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -256,10 +256,10 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item" >
-            <a href="/site/">Home</a>
+            <a href="/site/">Accueil</a>
         </li>
         <li class="breadcrumb-item" >
-            <a href="/site/goals">Goals</a>
+            <a href="/site/goals">Objectifs</a>
         </li>
         
         
@@ -272,10 +272,10 @@ data-event-label="high"
     <div class="container">
         <div class="row">
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" id="goal-4" class="goal-icon-image goal-icon-image-" />
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/fr/4.png" alt="Éducation de qualité - Objectif 4" id="goal-4" class="goal-icon-image goal-icon-image-" />
             </div>
             <div class="col-8 col-md-9 col-lg-10 goal-details">
-                <h1>Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</h1>
+                <h1>Assurer à tous une éducation équitable, inclusive et de qualité et des possibilités d’apprentissage    tout au long de la vie</h1>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@ data-event-label="high"
 
 
   <div class="container g-0">
-    <h2 class="goal-page-heading">Targets and indicators</h2>
+    <h2 class="goal-page-heading">Cibles et indicateurs</h2>
 
     
     
@@ -297,11 +297,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.1</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.1</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure that all girls and boys complete free, equitable and quality primary and secondary education leading to relevant and effective learning outcomes</span>
+            <span class="target-name">D’ici à 2030, faire en sorte que toutes les filles et tous les garçons suivent, sur un pied d’égalité, un cycle complet d’enseignement primaire et secondaire gratuit et de qualité, les dotant d’acquis véritablement utiles</span>
           </div>
       </div>
         
@@ -315,25 +315,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.1.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.1.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-1-1">Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex</a></span>
+              <span class="indicator-name"><a href="/site/4-1-1">Proportion d’enfants et de jeunes a) en 2e ou 3e année de cycle primaire ; b) en fin de cycle primaire ; c) en fin de premier cycle du secondaire qui maîtrisent au moins les normes d’aptitudes minimales en i) lecture et ii) mathématiques, par sexe</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -355,25 +355,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.1.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.1.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-1-2">Completion rate (primary education, lower secondary education, upper secondary education)</a></span>
+              <span class="indicator-name"><a href="/site/4-1-2">Taux d’achèvement (enseignement primaire, premier et deuxième cycles de l’enseignement secondaire)</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -391,11 +391,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.2</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.2</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure that all girls and boys have access to quality early childhood development, care and pre‐primary education so that they are ready for primary education</span>
+            <span class="target-name">D’ici à 2030, faire en sorte que toutes les filles et tous les garçons aient accès à des services de développement et de prise en charge de la petite enfance et à une éducation préscolaire de qualité qui les préparent à suivre un enseignement primaire</span>
           </div>
       </div>
         
@@ -409,25 +409,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.2.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.2.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-2-1">Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex</a></span>
+              <span class="indicator-name"><a href="/site/4-2-1">Proportion d'enfants âgés de 24 à 59 mois dont le développement est en bonne voie en matière de santé, d'apprentissage et de bien-être psychosocial, par sexe</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -449,79 +449,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.2.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.2.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-2-2">Participation rate in organized learning (one year before the official primary entry age), by sex</a></span>
+              <span class="indicator-name"><a href="/site/4-2-2">Taux de participation à des activités d’apprentissage organisées (un an avant l’âge officiel de scolarisation dans le primaire), par sexe</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.3</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university</span>
-          </div>
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.3.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/4-3-1">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -539,11 +485,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.4</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.3</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship</span>
+            <span class="target-name">D’ici à 2030, faire en sorte que toutes les femmes et tous les hommes aient accès dans des conditions d’égalité à un enseignement technique, professionnel ou tertiaire, y compris universitaire, de qualité et d’un coût abordable</span>
           </div>
       </div>
         
@@ -557,25 +503,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.4.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.3.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-4-1">Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill</a></span>
+              <span class="indicator-name"><a href="/site/4-3-1">Taux de participation des jeunes et des adultes à un programme d’éducation et de formation scolaire ou non scolaire au cours des 12 mois précédents, par sexe</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -593,11 +539,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.5</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.4</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, eliminate gender disparities in education and ensure equal access to all levels of education and vocational training for the vulnerable, including persons with disabilities, indigenous peoples and children in vulnerable situations</span>
+            <span class="target-name">D’ici à 2030, augmenter nettement le nombre de jeunes et d’adultes disposant des compétences, notamment techniques et professionnelles, nécessaires à l’emploi, à l’obtention d’un travail décent et à l’entrepreneuriat</span>
           </div>
       </div>
         
@@ -611,25 +557,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.5.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.4.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-5-1">Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</a></span>
+              <span class="indicator-name"><a href="/site/4-4-1">Proportion de jeunes et d’adultes ayant des compétences dans le domaine des technologies de l’information et des communications, par type de compétence</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -647,11 +593,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.6</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.5</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy</span>
+            <span class="target-name">D’ici à 2030, éliminer les inégalités entre les sexes dans le domaine de l’éducation et assurer l’égalité d’accès des personnes vulnérables, y compris les personnes handicapées, les autochtones et les enfants en situation vulnérable, à tous les niveaux d’enseignement et de formation professionnelle</span>
           </div>
       </div>
         
@@ -665,25 +611,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.6.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.5.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-6-1">Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex</a></span>
+              <span class="indicator-name"><a href="/site/4-5-1">Indices de parité (femmes/hommes, urbain/rural, quintile inférieur/supérieur de richesse et autres paramètres tels que le handicap, le statut d’autochtone et les situations de conflit, à mesure que les données deviennent disponibles) pour tous les indicateurs dans le domaine de l’éducation de cette liste pouvant être ventilés</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -701,11 +647,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.7</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.6</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure that all learners acquire the knowledge and skills needed to promote sustainable development, including, among others, through education for sustainable development and sustainable lifestyles, human rights, gender equality, promotion of a culture of peace and non-violence, global citizenship and appreciation of cultural diversity and of culture’s contribution to sustainable development</span>
+            <span class="target-name">D’ici à 2030, faire en sorte que tous les jeunes et une proportion considérable d’adultes, hommes et femmes, sachent lire, écrire et compter</span>
           </div>
       </div>
         
@@ -719,25 +665,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.7.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.6.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-7-1">Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment</a></span>
+              <span class="indicator-name"><a href="/site/4-6-1">Proportion de la population d’un groupe d’âge donné ayant les compétences voulues à au moins un niveau d’aptitude fixé a) en alphabétisme et b) arithmétique fonctionnels, par sexe</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -755,11 +701,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.a</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.7</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Build and upgrade education facilities that are child, disability and gender sensitive and provide safe, non-violent, inclusive and effective learning environments for all</span>
+            <span class="target-name">D’ici à 2030, faire en sorte que tous les élèves acquièrent les connaissances et compétences nécessaires pour promouvoir le développement durable, notamment par l’éducation en faveur du développement et de modes de vie durables, des droits de l’homme, de l’égalité des sexes, de la promotion d’une culture de paix et de non-violence, de la citoyenneté mondiale et de l’appréciation de la diversité culturelle et de la contribution de la culture au développement durable</span>
           </div>
       </div>
         
@@ -773,25 +719,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.a.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.7.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-a-1">Proportion of schools offering basic services, by type of service</a></span>
+              <span class="indicator-name"><a href="/site/4-7-1">Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter à l’indicateur 12.8.1 ci dessous et à la proposition de remplacement faite pour l’indicateur 13.3.1, figurant à la section A de l’annexe II)</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -809,11 +755,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.b</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.a</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2020, substantially expand globally the number of scholarships available to developing countries, in particular least developed countries, small island developing States and African countries, for enrolment in higher education, including vocational training and information and communications technology, technical, engineering and scientific programmes, in developed countries and other developing countries</span>
+            <span class="target-name">Construire des établissements scolaires qui soient adaptés aux enfants, aux personnes handicapées et aux deux sexes ou adapter les établissements existants à cette fin et fournir à tous un cadre d’apprentissage sûr, non violent, inclusif et efficace</span>
           </div>
       </div>
         
@@ -827,25 +773,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.b.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.a.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-b-1">Volume of official development assistance flows for scholarships by sector and type of study</a></span>
+              <span class="indicator-name"><a href="/site/4-a-1">Proportion d’établissements scolaires offrant des services essentiels, par type de service</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -863,11 +809,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 4.c</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.b</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, substantially increase the supply of qualified teachers, including through international cooperation for teacher training in developing countries, especially least developed countries and small island developing States</span>
+            <span class="target-name">D’ici à 2020, augmenter nettement à l’échelle mondiale le nombre de bourses d’études offertes à des étudiants des pays en développement, en particulier des pays les moins avancés, des petits États insulaires en développement et des pays d’Afrique, pour leur permettre de suivre des études supérieures, y compris une formation professionnelle, des cursus informatiques, techniques et scientifiques et des études d’ingénieur, dans des pays développés et d’autres pays en développement</span>
           </div>
       </div>
         
@@ -881,25 +827,79 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 4.c.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.b.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/4-c-1">Proportion of teachers with the minimum required qualifications, by education level</a></span>
+              <span class="indicator-name"><a href="/site/4-b-1">Volume de l’aide publique au développement consacrée aux bourses d’études, par secteur et type de formation</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Cible</span> 4.c</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">D’ici à 2030, accroître nettement le nombre d’enseignants qualifiés, notamment au moyen de la coopération internationale pour la formation d’enseignants dans les pays en développement, surtout dans les pays les moins avancés et les petits États insulaires en développement</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 4.c.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/site/4-c-1">Proportion d'enseignants possédant les qualifications minimales requises, par niveau d’études</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -914,7 +914,7 @@ data-event-label="high"
         <hr class="goal-page-target-rule" />
     
   </div>
-  <a href="#top">Back to top</a>
+  <a href="#top">Retour en haut</a>
 </div>
 
 
@@ -925,11 +925,11 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Créé en utilisant Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/site/contact-us">Contact us</a>
+                            <a href="/site/contact-us">Contactez-nous</a>
                             
                         </li>
                         <li>
@@ -981,17 +981,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'masquer';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Chercher';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220924165105'></script>
+<script src='/site/assets/js/sdg.js?v=20220929023524'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220924165105"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220929023524"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

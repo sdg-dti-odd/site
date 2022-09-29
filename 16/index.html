@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/en',
+  remoteDataBaseUrl: 'https://sdg-dti-odd.github.io/data/fr',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'fr',
 };
 
 </script>
@@ -99,7 +99,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 16 - Peace, justice and strong institutions - Indicators For The Sustainable Development Goals</title>
+    <title>Objectif 16 - Paix, justice et institutions efficaces - Indicateurs pour les objectifs de développement durable</title>
 
 
 
@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220924165105">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220929023524">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -143,17 +143,17 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-fr
 layout-goal
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"contraste standard","disable_high_contrast":"Désactiver le contraste élevé","disclaimer":"Ceci est un site web en développement. Nous apprécions vos <a href=\"mailto:%email_contacts.suggestions\">commentaires</a>.","enable_high_contrast":"Activer le contraste élevé","high_contrast":"contraste élevé","internet_explorer_message":"Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.","internet_explorer_message_title":"Ce navigateur Internet n'est plus pris en charge","skip_link":"Passer au contenu principal","tag_line":"17 objectifs pour transformer notre monde","toggle_menu":"Interrupteur du menu. Cliquez pour développer ou réduire le menu.","toggle_search":"Interrupteur de la barre. Cliquez pour développer ou réduire la barre de recherche."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Passer au contenu principal</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Ce navigateur Internet n'est plus pris en charge</h2>
+    <p class="internet-explorer-message-body">Nous avons détecté que vous utilisez Internet Explorer pour visiter ce site. Internet Explorer est en train d'être abandonné par Microsoft. Par conséquent, ce site Web ne prend plus en charge aucune version d'Internet Explorer. Certaines fonctionnalités de ce site ne fonctionneront pas. Vous devez utiliser un navigateur moderne tel que Edge, Chrome, Firefox ou Safari. Si vous avez des difficultés à installer ou à accéder à un autre navigateur, veuillez contacter votre équipe d'assistance informatique.</p>
 </div>
 <div id="disclaimer">
     
@@ -161,7 +161,7 @@ layout-goal
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Ceci est un site web en développement. Nous apprécions vos <a href="mailto:test@example.com">commentaires</a>.
     
   </div>
 </div>
@@ -172,7 +172,7 @@ layout-goal
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
             <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/SDG_logo.png" alt="Objectifs de développement durable - 17 objectifs pour transformer notre monde" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -180,25 +180,25 @@ layout-goal
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
+    <a class="nav-link" href="/site/goals">Objectifs</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site/reporting-status">Statut de rapport</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
+    <a class="nav-link" href="/site/about">À propos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
+    <a class="nav-link" href="/site/news">Mises à jour</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Chercher</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Chercher">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Chercher" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -217,11 +217,11 @@ layout-goal
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Français
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/es/16/">
-              Español
+            <a class="dropdown-item" href="/site/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -231,12 +231,12 @@ layout-goal
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site/es/16/">
-                Español
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site/en/16/">
+                English
             </a>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="Activer le contraste élevé" aria-label="Activer le contraste élevé"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -256,10 +256,10 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item" >
-            <a href="/site/">Home</a>
+            <a href="/site/">Accueil</a>
         </li>
         <li class="breadcrumb-item" >
-            <a href="/site/goals">Goals</a>
+            <a href="/site/goals">Objectifs</a>
         </li>
         
         
@@ -272,10 +272,10 @@ data-event-label="high"
     <div class="container">
         <div class="row">
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" alt="Peace, justice and strong institutions - Goal 16" id="goal-16" class="goal-icon-image goal-icon-image-" />
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/fr/16.png" alt="Paix, justice et institutions efficaces - Objectif 16" id="goal-16" class="goal-icon-image goal-icon-image-" />
             </div>
             <div class="col-8 col-md-9 col-lg-10 goal-details">
-                <h1>Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels</h1>
+                <h1>Promouvoir l’avènement de sociétés pacifiques et inclusives aux fins du développement durable, assurer l’accès de tous à la justice et mettre en place, à tous les niveaux, des institutions efficaces, responsables et ouvertes à tous</h1>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@ data-event-label="high"
 
 
   <div class="container g-0">
-    <h2 class="goal-page-heading">Targets and indicators</h2>
+    <h2 class="goal-page-heading">Cibles et indicateurs</h2>
 
     
     
@@ -297,11 +297,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.1</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.1</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Significantly reduce all forms of violence and related death rates everywhere</span>
+            <span class="target-name">Réduire nettement, partout dans le monde, toutes les formes de violence et les taux de mortalité qui y sont associés</span>
           </div>
       </div>
         
@@ -315,25 +315,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.1.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.1.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-1-1">Number of victims of intentional homicide per 100,000 population, by sex and age</a></span>
+              <span class="indicator-name"><a href="/site/16-1-1">Nombre de victimes d’homicide volontaire pour 100 000 habitants, par sexe et âge</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -355,25 +355,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.1.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.1.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-1-2">Conflict-related deaths per 100,000 population, by sex, age and cause</a></span>
+              <span class="indicator-name"><a href="/site/16-1-2">Nombre de décès liés à des conflits pour 100 000 habitants, par sexe, âge et cause</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -395,25 +395,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.1.3</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.1.3</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-1-3">Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months</a></span>
+              <span class="indicator-name"><a href="/site/16-1-3">Proportion de la population victime a) de violences physiques, b) psychologiques ou c) sexuelles au cours des 12 mois précédents</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -435,25 +435,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.1.4</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.1.4</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-1-4">Proportion of population that feel safe walking alone around the area they live</a></span>
+              <span class="indicator-name"><a href="/site/16-1-4">Nombre de personnes considérant qu’il n’y a pas de danger à se déplacer seules à pied dans leur zone de résidence, en proportion de la population totale</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -471,11 +471,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.2</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.2</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">End abuse, exploitation, trafficking and all forms of violence against and torture of children</span>
+            <span class="target-name">Mettre un terme à la maltraitance, à l’exploitation et à la traite, et à toutes les formes de violence et de torture dont sont victimes les enfants</span>
           </div>
       </div>
         
@@ -489,25 +489,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.2.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.2.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-2-1">Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month</a></span>
+              <span class="indicator-name"><a href="/site/16-2-1">Proportion des enfants âgés de 1 à 17 ans ayant subi des châtiments corporels ou des agressions psychologiques infligés par une personne s’occupant d’eux au cours du mois précédent</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -529,25 +529,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.2.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.2.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-2-2">Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation</a></span>
+              <span class="indicator-name"><a href="/site/16-2-2">Nombre de victimes de la traite d’êtres humains pour 100 000 habitants, par sexe, âge et forme d’exploitation</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -569,25 +569,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.2.3</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.2.3</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-2-3">Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18</a></span>
+              <span class="indicator-name"><a href="/site/16-2-3">Proportion de jeunes femmes et hommes de 18 à 29 ans ayant été victimes de violences sexuelles avant l’âge de 18 ans</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -605,11 +605,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.3</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.3</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Promote the rule of law at the national and international levels and ensure equal access to justice for all</span>
+            <span class="target-name">Promouvoir l’état de droit dans l’ordre interne et international et garantir à tous un égal accès à la justice</span>
           </div>
       </div>
         
@@ -623,25 +623,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.3.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.3.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-3-1">Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms</a></span>
+              <span class="indicator-name"><a href="/site/16-3-1">Proportion des personnes victimes de violences au cours des 12 mois précédents ayant signalé les faits aux autorités compétentes ou recouru à d’autres mécanismes de règlement des différends officiellement reconnus</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -663,25 +663,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.3.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.3.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-3-2">Unsentenced detainees as a proportion of overall prison population</a></span>
+              <span class="indicator-name"><a href="/site/16-3-2">Proportion de la population carcérale en instance de jugement</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -703,25 +703,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.3.3</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.3.3</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-3-3">Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism</a></span>
+              <span class="indicator-name"><a href="/site/16-3-3">Proportion de la population ayant connu un différend au cours des deux dernières années, avec saisine d’un mécanisme formel ou informel de règlement des différends, par type de mécanisme</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -739,11 +739,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.4</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.4</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime</span>
+            <span class="target-name">D’ici à 2030, réduire nettement les flux financiers illicites et le trafic d’armes, renforcer les activités de récupération et de restitution des biens volés et lutter contre toutes les formes de criminalité organisée</span>
           </div>
       </div>
         
@@ -757,25 +757,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.4.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.4.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-4-1">Total value of inward and outward illicit financial flows (in current United States dollars)</a></span>
+              <span class="indicator-name"><a href="/site/16-4-1">Valeur totale des flux financiers illicites entrants et sortants (en dollars des États‐Unis courants)</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -797,25 +797,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.4.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.4.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-4-2">Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments</a></span>
+              <span class="indicator-name"><a href="/site/16-4-2">Proportion des armes saisies, trouvées ou rendues volontairement dont la provenance ou l’utilisation illicite a été retracée ou établie par des autorités compétentes, conformément aux instruments internationaux</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -833,11 +833,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.5</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.5</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Substantially reduce corruption and bribery in all their forms</span>
+            <span class="target-name">Réduire nettement la corruption et la pratique des pots-de-vin sous toutes leurs formes</span>
           </div>
       </div>
         
@@ -851,25 +851,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.5.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.5.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-5-1">Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months</a></span>
+              <span class="indicator-name"><a href="/site/16-5-1">Proportion de personnes ayant eu, au moins une fois, affaire à un agent public auquel elles ont versé un pot-de-vin ou qui leur a demandé un pot-de-vin au cours des 12 mois précédents</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -891,25 +891,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.5.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.5.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-5-2">Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months</a></span>
+              <span class="indicator-name"><a href="/site/16-5-2">Proportion d’entreprises ayant eu au moins une fois affaire à un agent public auquel elles ont versé un pot‐de‐vin ou qui leur a demandé un pot‐de‐vin au cours des 12 mois précédents</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -927,11 +927,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.6</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.6</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Develop effective, accountable and transparent institutions at all levels</span>
+            <span class="target-name">Mettre en place des institutions efficaces, responsables et transparentes à tous les niveaux</span>
           </div>
       </div>
         
@@ -945,25 +945,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.6.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.6.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-6-1">Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)</a></span>
+              <span class="indicator-name"><a href="/site/16-6-1">Dépenses publiques primaires en proportion du budget initial approuvé, par secteur (ou par code budgétaire ou autre critère similaire)</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -985,25 +985,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.6.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.6.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-6-2">Proportion of population satisfied with their last experience of public services</a></span>
+              <span class="indicator-name"><a href="/site/16-6-2">Proportion de la population dont la dernière expérience avec les services publics a été satisfaisante</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1021,11 +1021,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.7</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.7</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Ensure responsive, inclusive, participatory and representative decision-making at all levels</span>
+            <span class="target-name">Faire en sorte que le dynamisme, l’ouverture, la participation et la représentation à tous les niveaux caractérisent la prise de décisions</span>
           </div>
       </div>
         
@@ -1039,25 +1039,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.7.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.7.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-7-1">Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups</a></span>
+              <span class="indicator-name"><a href="/site/16-7-1">Répartition des postes dans les institutions nationales et locales, y compris : a) les organes législatifs ; b) la fonction publique ; c) les organes judiciaires, par rapport à la répartition nationale, par sexe, âge, situation au regard du handicap et groupe de population</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1079,25 +1079,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.7.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.7.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-7-2">Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group</a></span>
+              <span class="indicator-name"><a href="/site/16-7-2">Proportion de la population qui estime que la prise de décisions est ouverte et réactive, par sexe, âge, situation au regard du handicap et groupe de la population</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1115,11 +1115,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.8</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.8</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Broaden and strengthen the participation of developing countries in the institutions of global governance</span>
+            <span class="target-name">Élargir et renforcer la participation des pays en développement aux institutions chargées de la gouvernance au niveau mondial</span>
           </div>
       </div>
         
@@ -1133,25 +1133,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.8.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.8.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-8-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
+              <span class="indicator-name"><a href="/site/16-8-1">Proportion de pays en développement qui sont membres d’organisations internationales et y disposent du droit de vote</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1169,11 +1169,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.9</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.9</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, provide legal identity for all, including birth registration</span>
+            <span class="target-name">D’ici à 2030, garantir à tous une identité juridique, notamment grâce à l’enregistrement des naissances</span>
           </div>
       </div>
         
@@ -1187,25 +1187,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.9.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.9.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-9-1">Proportion of children under 5 years of age whose births have been registered with a civil authority, by age</a></span>
+              <span class="indicator-name"><a href="/site/16-9-1">Proportion d’enfants de moins de 5 ans ayant été enregistrés par une autorité d’état civil, par âge</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1223,11 +1223,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.10</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.10</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements</span>
+            <span class="target-name">Garantir l’accès public à l’information et protéger les libertés fondamentales, conformément à la législation nationale et aux accords internationaux</span>
           </div>
       </div>
         
@@ -1241,25 +1241,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.10.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.10.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-10-1">Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months</a></span>
+              <span class="indicator-name"><a href="/site/16-10-1">Nombre de cas avérés de meurtres, d’enlèvements, de disparitions forcées, de détentions arbitraires et d’actes de torture dont ont été victimes des journalistes, des personnes travaillant dans les médias, des syndicalistes et des défenseurs des droits de l’homme au cours des 12 mois précédents</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1281,79 +1281,25 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.10.2</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.10.2</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-10-2">Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information</a></span>
+              <span class="indicator-name"><a href="/site/16-10-2">Nombre de pays qui adoptent et mettent en œuvre des dispositions constitutionnelles, réglementaires et politiques pour garantir l’accès public à l’information</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.a</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime</span>
-          </div>
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.a.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/16-a-1">Existence of independent national human rights institutions in compliance with the Paris Principles</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1371,11 +1317,11 @@ data-event-label="high"
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 16.b</span>
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.a</span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Promote and enforce non-discriminatory laws and policies for sustainable development</span>
+            <span class="target-name">Appuyer, notamment dans le cadre de la coopération internationale, les institutions nationales chargées de renforcer, à tous les niveaux, les moyens de prévenir la violence et de lutter contre le terrorisme et la criminalité, en particulier dans les pays en développement</span>
           </div>
       </div>
         
@@ -1389,25 +1335,79 @@ data-event-label="high"
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 16.b.1</span>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.a.1</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/16-b-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
+              <span class="indicator-name"><a href="/site/16-a-1">Existence d’institutions nationales des droits de l’homme indépendantes et conformes aux Principes de Paris</a></span>
               
 
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
         
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Explorer les sources de données</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Cible</span> 16.b</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Promouvoir et appliquer des lois et politiques non discriminatoires pour le développement durable</span>
+          </div>
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> 16.b.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/site/16-b-1">Proportion de la population ayant déclaré avoir personnellement fait l’objet de discrimination ou de harcèlement au cours des 12 mois précédents pour des motifs interdits par le droit international des droits de l’homme</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
+        <span class="visually-hidden">État de l’indicateur</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Explorer les sources de données</span>
 </span>
 
 
@@ -1422,7 +1422,7 @@ data-event-label="high"
         <hr class="goal-page-target-rule" />
     
   </div>
-  <a href="#top">Back to top</a>
+  <a href="#top">Retour en haut</a>
 </div>
 
 
@@ -1433,11 +1433,11 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Créé en utilisant Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/site/contact-us">Contact us</a>
+                            <a href="/site/contact-us">Contactez-nous</a>
                             
                         </li>
                         <li>
@@ -1489,17 +1489,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'masquer';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Chercher';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220924165105'></script>
+<script src='/site/assets/js/sdg.js?v=20220929023524'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220924165105"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220929023524"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
