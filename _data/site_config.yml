@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: IEDS
+  adjective: de l'IEDS
 create_goals:
   previous_next_links: false
   goals: []
@@ -138,8 +138,8 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
+  - fr
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
@@ -204,7 +204,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://sdg-dti-odd.github.io/data/'
+remote_data_prefix: 'https://sdg-dti-odd.github.io/data'
 reporting_status:
   title: status.reporting_status
   description: status.description
