@@ -2510,3 +2510,7 @@ body.contrast-high #search-bar-on-page button:hover {
 
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
+
+.qc-goal-page-heading {
+  margin-bottom: 10px;
+  margin-top: 8px; }
