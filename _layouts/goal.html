@@ -22,7 +22,9 @@
     
     {% include components/goal/indicators_qc.html content=content %}
 
-    <h2 class="goal-page-heading">{{ page.t.general.targets_and_indicators }}</h2>
+    <h2 class="goal-page-heading">{{ page.t.general.data }}</h2>
+    
+    {% assign number = 1 %}
 
     {% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number | group_by: 'target_number' %}
     {% for group in goal_indicators %}
@@ -30,7 +32,7 @@
       <div class="row align-items-start goal-target">
           <div class="col-auto goal-page-target-number">
             <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">{{ page.t.general.target }}</span> {{ target.number }}</span>
+              <span class="target-number"><span class="visually-hidden">{{ page.t.general.target }}</span></span>
             </h3>
           </div>
           <div class="col goal-page-target-name">
@@ -50,19 +52,23 @@
           {% if indicator.progress_status and indicator.progress_status != '' %}
             {% assign indicator_has_progress = true %}
           {% endif %}
+          
+          {% assign indicator_number = page.goal.number | append: "." | append: number %}
+          {% assign indicator_name = page.t.general.issue | append: " " | append: number %}
+          {% assign number = number | plus: 1 %}
 
           <div class="row align-items-start goal-indicator">
           
             <div class="col-auto goal-page-indicator-number">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">{{ page.t.general.indicator }}</span> {{ indicator.number }}</span>
+                <span class="indicator-number"><span class="visually-hidden">{{ page.t.general.indicator }}</span> {{ indicator_number }}</span>
               </h4>
             </div>
             <div class="col goal-page-indicator-name">
               {% if indicator.placeholder and indicator.placeholder != '' %}
               <span class="indicator-name">{{ indicator.placeholder }}</span>
               {% else %}
-              <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
+              <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator_name }}</a></span>
               {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
             </div>
             {% if indicator_has_progress %}
