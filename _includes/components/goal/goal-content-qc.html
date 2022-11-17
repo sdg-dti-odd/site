@@ -1,7 +1,7 @@
 
 {% assign total_issues = 0 %}
 
-{% for tag in (1..2) %}
+{% for tag in (1..4) %}
 {%- assign goal_qc_short_key = page.goal.number | append: '-' | append: tag | append: '-qc-short' -%}
 {%- assign goal_qc_short = page.t.global_goals[goal_qc_short_key] -%}
 <h2 class="goal-page-heading">{{ goal_qc_short }}</h2>
