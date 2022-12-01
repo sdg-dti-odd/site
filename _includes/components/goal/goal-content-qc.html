@@ -69,33 +69,37 @@
                 </div>
             </div>
 
-            {% for tag_subissue in (1..2) %}
-            
-            {%- assign subissue_number = page.goal.number | append: '.' | append: total_issues | append:'.' | append: tag_subissue %}
+            {%- assign target_indicators = page.indicators | where: 'target_number', issue_number %}
+            {% for indicator in target_indicators %}
+
             <div class="row align-items-start goal-indicator">
         
                 <div class="col-auto goal-page-indicator-number">
                 <h4>
-                    <span class="indicator-number"><span class="visually-hidden">Indicateur</span> {{ subissue_number }}</span>
+                    <span class="indicator-number"><span class="visually-hidden">Indicateur</span> {{ indicator.number }}</span>
                 </h4>
                 </div>
                 <div class="col goal-page-indicator-name">
+                {% if indicator.progress_status and indicator.progress_status != '' %}
+                    {% assign indicator_has_progress = true %}
+                {% endif %}
                 
+                {% if indicator.reporting_status == "complete" %}
+                <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
+                {% else %}
                 <span class="indicator-name"><a href="/site/2-a-1">À déterminer</a></span>
+                {% endif %}
                 
-                    <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
-                        <span class="visually-hidden">État de l’indicateur</span>
-                        
-                    <span class="status notstarted">
-                    <span class="status-inner">Explorer les sources de données</span>
-                    </span>
-                        </li></ul>
-                    
-                            </div>
-                            
-                        </div>
-            {% endfor %}
-            
+                {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
+                {% if indicator_has_progress %}
+                    <div class="col-lg-2 goal-page-indicator-progress">
+                    <span class="visually-hidden">{{ site.progress_status.status_heading | t }}</span>
+                    {% include components/progress/progress-status.html indicator=indicator %}
+                    </div>
+                {% endif %}
+                </div>
+                </div>
+        {% endfor %}
             <hr class="goal-page-target-rule">  
         {% endif %}                      
     {% endfor %}
