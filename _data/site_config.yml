@@ -192,7 +192,7 @@ metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
+    description: ''
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
