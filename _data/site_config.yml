@@ -139,6 +139,9 @@ indicator_tabs:
   tab_2: table
   tab_3: map
   tab_4: hide
+languages:
+  - fr
+  - en
 languages_public: []
 logos: []
 map_layers: []
