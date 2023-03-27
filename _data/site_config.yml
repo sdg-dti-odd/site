@@ -76,13 +76,13 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: Téléchargez l'examen local volontaire
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+      Convertir le contenu de la plateforme en un document PDF d'analyse des progrès de la communauté.
+  
+      _Le contenu peut prendre entre 5 et 10 minutes pour se mettre à jour_
+    button_label: "Téléchargez l'examen local volontaire (PDF)"
+    button_link: https://sdg-dti-odd.github.io/data/fr/output.pdf #<remote_data_prefix>/fr/output.pdf
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -128,18 +128,17 @@ indicator_metadata_form:
   translation_link: ''
   language: ''
   scopes:
+    - analysis
+    - community
+    - initiatives
     - national
-    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
-languages:
-  - fr
-  - en
+  tab_1: chart
+  tab_2: table
+  tab_3: map
+  tab_4: hide
 languages_public: []
 logos: []
 map_layers: []
@@ -193,18 +192,21 @@ metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: ''
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
+  - scope: analysis
+    title: "Analyse des tendances"
+    description: "Analyser ici les tendances de l'indicateur."
+  - scope: community
+    title: "Défis et progrès de la communauté"
+    description: "Décrire ici les défis et progrès de la communauté liés à l'indicateur"
+  - scope: initiatives
+    title: "Initiatives de la communauté"
+    description: "Inscrire ici les initiatives de la municipalités liées à cet indicateur."
+    
 news:
   category_links: false
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://sdg-dti-odd.github.io/data'
 reporting_status:
   title: status.reporting_status
   description: status.description
