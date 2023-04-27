@@ -5,48 +5,6 @@
 {%- assign goal_qc_short_key = page.goal.number | append: '-' | append: tag | append: '-qc-short' -%}
 {%- assign goal_qc_short = page.t.global_goals[goal_qc_short_key] -%}
 <h2 class="goal-page-heading">{{ goal_qc_short }}</h2>
-
-    {% if goal_qc_short == "En réflexion." %}
-        <div class="row align-items-start goal-target">
-            <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-                <span class="target-number">{{ page.goal.number }}.1<span class="visually-hidden">Cible</span></span>
-            </h3>
-            </div>
-            <div class="col goal-page-target-name">
-            <span class="target-name">À DÉTERMINER</span>
-            </div>
-        </div>
-
-        {% for tag_subissue in (1..2) %}
-        
-        {%- assign subissue_number = page.goal.number | append: '.1.' | append: tag_subissue %}
-        <div class="row align-items-start goal-indicator">
-
-            <div class="col-auto goal-page-indicator-number">
-            <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicateur</span> {{ subissue_number }}</span>
-            </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-            
-            <span class="indicator-name"><a href="/site/2-a-1">À déterminer</a></span>
-            
-                <ul class="tags list-unstyled list-inline" aria-label="Étiquettes"><li class="list-inline-item">
-                    <span class="visually-hidden">État de l’indicateur</span>
-                    
-                <span class="status notstarted">
-                <span class="status-inner">Explorer les sources de données</span>
-                </span>
-                    </li></ul>
-                
-                        </div>
-                        
-                    </div>
-        {% endfor %}
-        
-        <hr class="goal-page-target-rule">
-    {% else %}
     {% for tag_issue in (1..20) %}
         
 
@@ -98,11 +56,10 @@
                     </div>
                 {% endif %}
                 </div>
-                </div>
+            </div>
         {% endfor %}
             <hr class="goal-page-target-rule">  
         {% endif %}                      
     {% endfor %}
-    {% endif %}
 {% endfor %}
 
