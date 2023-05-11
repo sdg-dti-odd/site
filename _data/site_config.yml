@@ -182,7 +182,7 @@ map_layers: []
 map_options:
   #disaggregation_controls: true #whether to show disaggregation controls on the map
   minZoom: 5
-  maxZoom: 80
+  maxZoom: 10
   tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   tileOptions:
  # attribution: 'My map attribution'
@@ -208,7 +208,7 @@ map_options:
     dashArray: '5,5'
 map_layers:
   - min_zoom: 5
-    max_zoom: 80
+    max_zoom: 10
     subfolder: regions
     label: Regions
 menu:
