@@ -1,4 +1,35 @@
-﻿analytics:
+# Jekyll configuration for Open SDG platform
+
+baseurl: "/site"
+remote_data_prefix: 'https://sdg-dti-odd.github.io/data'
+
+languages:
+  - fr
+  - en
+# Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
+remote_theme: open-sdg/open-sdg@2.1.0
+
+
+# Replace this title as needed.
+title: general.site_title
+url: ""
+environment: staging
+
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title.html
+  indicators:
+    output: true
+  goals:
+    output: true
+
+#site_config
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -76,13 +107,19 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
+  # - title: Téléchargez l'examen local volontaire partiel
+  #   content: ''
+  #   include: components/download-elv.html
+  #   button_label: ''
+  #   button_link: ''
+  #   rule_color: ''
   - title: Téléchargez l'examen local volontaire
     content: |
       Convertir le contenu de la plateforme en un document PDF d'analyse des progrès de la communauté.
   
       _Le contenu peut prendre entre 5 et 10 minutes pour se mettre à jour_
     button_label: "Téléchargez l'examen local volontaire (PDF)"
-    button_link: https://sdg-dti-odd.github.io/data/fr/output.pdf #<remote_data_prefix>/fr/output.pdf
+    button_link: https://sdg-dti-odd.github.io/data/fr/output.pdf
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -139,15 +176,13 @@ indicator_tabs:
   tab_2: table
   tab_3: map
   tab_4: hide
-languages:
-  - fr
-  - en
 languages_public: []
 logos: []
 map_layers: []
 map_options:
-  minZoom: 0
-  maxZoom: 80
+  #disaggregation_controls: true #whether to show disaggregation controls on the map
+  minZoom: 5
+  maxZoom: 10
   tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   tileOptions:
  # attribution: 'My map attribution'
@@ -172,8 +207,8 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 map_layers:
-  - min_zoom: 0
-    max_zoom: 80
+  - min_zoom: 5
+    max_zoom: 10
     subfolder: regions
     label: Regions
 menu:
@@ -197,6 +232,8 @@ metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: ''
+  # - scope: global
+  #   title: indicator.global_metadata
   - scope: analysis
     title: "Analyse des tendances"
     description: "Analyser ici les tendances de l'indicateur."
@@ -244,3 +281,23 @@ time_series_attributes:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+
+
+# Tell Jekyll to use the Remote Theme plugin.
+plugins:
+  - jekyll-remote-theme
+  - jekyll-open-sdg-plugins
+
+# Exclude some files/folders.
+exclude:
+  - vendor
+  - scripts
+  - remotedata
+  - Gemfile
+  - Gemfile.lock
+  - README
+  - README.md
+  - LICENSE
+
+bootstrap_5: true
+chartjs_3: true
