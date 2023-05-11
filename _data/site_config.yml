@@ -119,7 +119,7 @@ frontpage_cards:
   
       _Le contenu peut prendre entre 5 et 10 minutes pour se mettre à jour_
     button_label: "Téléchargez l'examen local volontaire (PDF)"
-    button_link: https://sdg-dti-odd.github.io/data/fr/output.pdf #faire ajouter le remote_data_prefix
+    button_link: https://sdg-dti-odd.github.io/data/fr/output.pdf
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -243,15 +243,13 @@ metadata_tabs:
   - scope: initiatives
     title: "Initiatives de la communauté"
     description: "Inscrire ici les initiatives de la municipalités liées à cet indicateur."
-  # - scope: sources #TODO change to sources_alt after update 2.1.0
-  #   title: indicator.sources
-  #   description: ''
     
 news:
   category_links: false
 progress_status:
   status_heading: ''
   status_types: []
+remote_data_prefix: 'https://sdg-dti-odd.github.io/data'
 reporting_status:
   title: status.reporting_status
   description: status.description
